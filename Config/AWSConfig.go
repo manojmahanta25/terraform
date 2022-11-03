@@ -9,7 +9,7 @@ import (
 func AwsConfig(scope constructs.Construct) aws.AwsProvider {
 	return aws.NewAwsProvider(scope, jsii.String("AWS"), &aws.AwsProviderConfig{
 		Region:    jsii.String("us-east-1"),
-		AccessKey: jsii.String("AKIAWB2KIRNM5AXN4774"),                     //Access Key
-		SecretKey: jsii.String("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"), //Secret Key
+		AccessKey: jsii.String("######"),                     //Access Key
+		SecretKey: jsii.String("######"), //Secret Key
 	})
 }
